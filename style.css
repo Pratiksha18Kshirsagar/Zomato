@@ -109,6 +109,7 @@ input {
     justify-content: center;
     gap: 20px;
     margin-top: 35px;
+    max-width: 100vw;
  
 }
 
@@ -130,9 +131,7 @@ input {
 .card img{
     border-radius: 13px 13px 1px 1px;
 }
-.card :hover{
-    
-}
+
 
 .cp  {
     position: absolute;
@@ -152,3 +151,44 @@ input {
     font-weight: 500;
 }
 
+.collection{
+    height: 100px;
+    margin: 70px;
+    max-width: 100vw;
+}
+h1{
+    color: black;
+}
+.desc div{
+    color: rgb(10, 10, 10);
+    font-size: 16px;
+}
+
+.desc{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 200px;
+}
+.red{
+    color: red !important;
+}
+
+.secCard2{
+    display: flex;
+    gap: 10px;
+   margin-top: 30px;
+}
+
+.card2 img{
+    height: 320px;
+    width: 270px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card2 p{
+    color: black;
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+}
